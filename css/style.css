@@ -1,0 +1,555 @@
+.accomodation-main {
+    padding: 88px 0px 73px 0px;
+    position: relative;
+}
+
+.main-hr {
+    margin: 0 auto;
+    margin-top: 111px;
+
+}
+
+.accomodation-main-title {
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 32px;
+    /* identical to box height, or 94% */
+
+
+    color: #2F99CC;
+
+}
+
+.accomodation-main-text {
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 156% */
+
+    text-align: center;
+    height: 100%;
+    color: #444444;
+}
+
+.accomodation-main-list {
+    margin-top: 111px;
+    display: flex;
+    justify-content: center;
+}
+
+.accommodation-benefits {
+    padding: 56px 0px 106px 0px;
+    background: #EDFAFF;
+    position: relative;
+    z-index: 1;
+}
+
+.accomodation-benefits-container {
+    margin: 0 auto;
+}
+
+.accommodation-benefits-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 75px;
+}
+
+.accommodation-benefits-item {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.accommodation-benefits-image:first-child {
+    margin-right: 18px;
+}
+
+.accommodation-benefits-image {
+    margin-right: 27px;
+}
+
+.accommodation-benefits-text {
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 156% */
+
+
+    color: #444444;
+
+}
+
+.order {
+    padding: 90.83px 0px 77px 0px;
+    background: #F5F5F5;
+}
+
+.order-container {
+    display: flex;
+    justify-content: center;
+}
+
+.order-title {
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 32px;
+    /* identical to box height, or 123% */
+
+
+    color: #2F99CC;
+
+}
+
+.order-mail {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    margin-top: 33px;
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+
+    text-decoration-line: underline;
+
+    color: #2F99CC;
+}
+
+
+.order-phone {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    
+    margin-top: 3px;
+    
+}
+.order-phone a,
+.order-mail a{
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+
+    text-decoration-line: underline;
+
+    color: #2F99CC;
+}
+.order-download{
+    margin-top: 63px;
+    display: flex;
+    align-items: center;
+
+}
+
+.order-download a {
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    /* identical to box height, or 200% */
+
+    text-decoration-line: underline;
+
+    color: #444444;
+}
+
+.order-download img {
+    margin-right: 8px;
+}
+
+#benefits-image-first {
+    margin-left: 12%;
+}
+
+.benefits-image:nth-child(2) {
+    margin-top: -22.61px;
+    margin-left: 50%;
+}
+
+
+
+.audience-download {
+    margin-top: 66.85px;
+    display: flex;
+    justify-content: center;
+}
+
+.audience-download div {
+    display: flex;
+    align-items: center;
+}
+
+.audience-download a {
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 32px;
+    /* identical to box height, or 213% */
+
+    text-decoration-line: underline;
+
+    color: #444444;
+    margin-left: 8px;
+}
+
+.accomodation-need {
+    padding: 0px 0px 4px 0px;
+    position: relative;
+}
+
+.accomodation-need-text {
+
+    align-self: center;
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 156% */
+
+
+    color: #444444;
+
+}
+
+.accomodation-need-container {
+    margin: 0px 126px 0px 194px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.accomodation-audience {
+    padding: 85px 0px 113px 0px;
+    position: relative;
+}
+
+.accomodation-audience-container {
+    margin: 0px 126px 0px 194px;
+}
+
+.accomodation-audience-container::before {
+    position: absolute;
+    content: url(../source/images/accomodation-auedince-arrow.png);
+    left: 50%;
+    top: 20px;
+    background-color: white;
+    transform: translate(-50%, -50%);
+
+}
+
+.modeExpert-main-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.modeExpter-subtitle{
+    margin-left: 26px;
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+    color: #68A868;
+    background: #EDFBED;
+    border-radius: 3px;
+    padding: 3px 12px;
+    
+}
+.modeExpert-main-image{
+    margin-right: 95px;
+}
+.modeExpert-main-footer{
+    margin-top: 26px;
+    font-family: 'Museo Sans Cyrl';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 25px;
+/* identical to box height, or 156% */
+
+
+/* #444444 */
+
+color: #444444;
+background: #EDFAFF;
+border-radius: 3px;
+padding: 19px 12px 19px 30px;
+width: 65%;
+}
+
+.modeExpert-main-footer a{
+    margin-left: 10px;
+    color: #2F99CC;
+    font-family: 'Museo Sans Cyrl';
+font-style: normal;
+font-weight: 300;
+line-height: 25px;
+    font-size: 25px;
+    text-decoration: none;
+}
+.modeExpert-benefits-subitem{
+    gap: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+.modeExpert-benefits-subitem:hover{
+    cursor: pointer;
+}
+.modeExpert-benefits-text{
+    font-family: 'Museo Sans Cyrl';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 18px;
+/* or 62% */
+
+
+color: #444444;
+}
+.modeExpert-benefits-text-select{
+    font-family: 'Museo Sans Cyrl';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+/* or 62% */
+
+text-decoration-line: underline;
+
+
+color: #444444;
+
+}
+.modeExpert-screen{
+    position: relative;
+    background-image: url(../source/images/modeExpert-screen.jpeg);
+    /* height: 849px; */
+    height: 60vw;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+}
+.modeExpert-underfooter{
+    position: relative;
+    padding: 12px 0px 47px 0px;
+    background: #EDFAFF;
+}
+.modeExpert-underfooter-container{
+    margin: 0 auto;
+}
+.modeExpert-underfooter-container::before{
+    content: url(../source/images/benefits-arrow.png);
+    position:absolute;
+    left:50%;
+    top:7%;
+    transform: translate(-50%, -50%);
+}
+#price{
+    position: absolute;
+    opacity: 40%;
+    width: 15%;
+    height: 4%;
+    left: 39.3%;
+    top: 11%;
+    background: rgba(red, green, blue, alpha);
+    
+
+}
+
+#filters{
+    position: absolute;
+    background: rgba(red, green, blue, alpha);
+    opacity: 40%;
+    width: 16%;
+height: 62%;
+    left: 15.5%;
+    top: 35.5%;
+   
+    
+}
+#analogs{
+    position: absolute;
+    background: rgba(red, green, blue, alpha);
+    opacity: 40%;
+    width: 11%;
+    height: 3.5%;
+    left: 33.6%;
+    top: 23.2%;
+ 
+    
+}
+#city{
+    position: absolute;
+    background: rgba(red, green, blue, alpha);
+    opacity: 40%;
+    width: 10%;
+    height: 3.5%;
+    left: 76%;
+    top: 23.2%;
+
+    
+}
+#speed-acces{
+    position: absolute;
+    background: rgba(red, green, blue, alpha);
+    opacity: 40%;
+    width: 27%;
+    height: 4%;
+    left: 44.5%;
+    top: 16%;
+
+   
+}
+.modeExpert-button{
+    margin-top: 62px;
+    background: #2F99CC;
+border: 0;
+border-radius: 3px ;
+padding: 3px 44px 6.25px 44px;
+width: 191px;
+}
+.modeExpert-button a{
+    font-family: 'Museo Sans Cyrl';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 32px;
+/* or 213% */
+text-decoration: none;
+
+color: #EDFAFF;
+}
+@media (max-width:1092px) {
+    .accomodation-main {
+        padding-top: 152px ;
+    }
+    .accomodation-main-title {
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .accomodation-need-container
+    {
+        margin: 0 auto;
+    }
+
+    .accomodation-need-container,
+    .order-container
+     {
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+        justify-content: center;
+    }
+
+ 
+    .order-container{
+        position: relative !important;
+    }
+    .order-title{
+        position: absolute ;
+        left: 50% ;
+        top: 0px ;
+        transform: translate(-50%, -50%);
+    }
+
+    .accomodation-need {
+        padding: 58px 0px 0px 0px;
+    }
+
+ 
+   
+    .order-download {
+        margin-top: 29px;
+    }
+    .order-image,
+    .accomodation-need-image,
+    .modeExpert-main-image,
+    .modeExpter-subtitle,
+    .modeExpert-main-footer{
+        margin: 0 auto;
+    }
+    .order-phone,
+    .order-mail,
+    .order-download{
+        justify-content: center;
+    }
+   .modeExpert-main-footer{
+    margin-top: 49px;
+   }
+
+
+}
+
+@media (max-width:919px) {
+    .main-hr {
+        display: none;
+    }
+
+
+    .accomodation-main-list,
+    .accommodation-benefits-list,
+    .accommodation-benefits-item {
+        flex-direction: column;
+    }
+
+
+    .accommodation-benefits-item {
+        margin: 0 auto;
+    }
+    .accommodation-benefits-text{
+        text-align: center;
+    }
+
+    .benefits-container::before {
+        top: 1.5%;
+    }
+    .accommodation-benefits-image:nth-child(2) img{
+        transform: rotateZ(89deg);
+    }
+ 
+  
+}
+
+@media (max-width:600px) {
+
+    .modeExpert-screen{
+        display: none;
+    }
+    .modeExpert-underfooter{
+        background: #FFFFFF;
+        padding: 60px 0x 93px 0x;
+    }
+    .modeExpert-underfooter img{
+       display: none;
+    }
+    .modeExpert-underfooter-container::before{
+       content: url(../source/images/audience-arrow.png);
+    }
+    
+    .accomodation-audience-container {
+        margin: 0 3%; 
+    }
+}
