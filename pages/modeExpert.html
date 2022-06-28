@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Режим эксперт</title>
+    <link rel="stylesheet" href="../css/main-style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-container">
+        <div class="header-text">КАБЕЛЬНАЯ ПОИСКОВАЯ СИСТЕМА</div>
+        <div class="header-logo">
+          <a href="#">
+            <img src="../source/images/header-logo.png" alt="" />
+          </a>
+        </div>
+        <div class="header-phone">
+          <div>
+            <img
+              src="../source/images/header-phone.png"
+              alt="Логотип телефона"
+            />
+          </div>
+          <div>
+            <a href="8 (812) 408-21-84">8 (812) 408-21-84</a>
+          </div>
+        </div>
+        <div class="header-mail">
+          <div>
+            <img src="../source/images/header-email.png" alt="Логотип email" />
+          </div>
+          <div>
+            <a href="mailto:info@k-ps.ru">info@k-ps.ru</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="main-bg" >
+        <img src="../source/images/main-bg.png"
+         alt="" />
+      </div>
+      <div class="main-container " id="modeExpert-main-container">
+        <div class="modeExpert-main-image">
+          <img src="../source/images/modeExpter-main-poster.jpg" alt="" />
+        </div>
+        <div class="main-content" id="modeExpert-main-content">
+          <div class="modeExpert-main-title">
+            <div class="main-title">Режим эксперт</div>
+            <div class="modeExpter-subtitle">
+              В системе зарегистрировано 1002 склада
+            </div>
+          </div>
+          <div class="main-text" id="modeExpert-main-text">
+            Режим ЭКСПЕРТ - это оптимизированная под торгующие организации
+            <br />
+            визуализация товаров в поисковой системы КПС. <br />
+            Мы убрали всю лишний информацию о товаре оставив только необходимое.
+            <br />
+            Теперь ориентироваться складах стало просто!
+          </div>
+          <div class="modeExpert-main-footer">
+            Доступ к режиму эксперт
+            <span>
+              <a href="">БЕСПЛАТНЫЙ</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="benefits">
+      <div class="benefits-container">
+        <div class="benefits-title">
+          Все эти инструменты в комплексе помогут вам <br />
+          отыскать нужный кабель
+        </div>
+        <div class="benefits-list modeExpert-benefits-list"  >
+          <div class="benefits-item modeExpert-benefits-item" >
+            <div
+              class="modeExpert-benefits-subitem"
+              id="screen-price"
+              onclick="updateScreen(event)"
+            >
+              <div>
+                <img src="../source/images/check-circle.png" alt="" />
+              </div>
+              <div class="modeExpert-benefits-text">
+                Сортировка <br />
+                по количеству и цене
+              </div>
+            </div>
+            <div
+              class="modeExpert-benefits-subitem"
+              id="screen-filters"
+              onclick="updateScreen(event)"
+            >
+              <div>
+                <img src="../source/images/check-circle.png" alt="" />
+              </div>
+              <div class="modeExpert-benefits-text">
+                Удобная <br />
+                система фильтров
+              </div>
+            </div>
+            <div
+              class="modeExpert-benefits-subitem"
+              id="screen-analogs"
+              onclick="updateScreen(event)"
+            >
+              <div>
+                <img src="../source/images/check-circle.png" alt="" />
+              </div>
+              <div class="modeExpert-benefits-text">
+                Возможность просматривать аналоги <br />
+                запрашиваемой марки кабеля
+              </div>
+            </div>
+          </div>
+          <div class="benefits-item modeExpert-benefits-item">
+            <div
+              class="modeExpert-benefits-subitem"
+              id="screen-city"
+              onclick="updateScreen(event)"
+            >
+              <div>
+                <img src="../source/images/check-circle.png" alt="" />
+              </div>
+              <div class="modeExpert-benefits-text">
+                Сортировка по городу <br />
+                от указанного по удаленности
+              </div>
+            </div>
+            <div
+              class="modeExpert-benefits-subitem"
+              id="screen-speed-acces"
+              onclick="updateScreen(event)"
+            >
+              <div>
+                <img src="../source/images/check-circle.png" alt="" />
+              </div>
+              <div class="modeExpert-benefits-text">
+                Быстрый доступ к характеристикам <br />
+                и описанию кабельной продукции
+              </div>
+            </div>
+            <div
+              class="modeExpert-benefits-subitem"
+              id="screen-analogs1"
+              onclick="updateScreen(event)"
+            >
+              <div>
+                <img src="../source/images/check-circle.png" alt="" />
+              </div>
+              <div class="modeExpert-benefits-text">
+                Просмотр необходимого кабеля <br />
+                среди производителей
+              </div>
+            </div>
+            <div
+              class="modeExpert-benefits-subitem"
+              onclick="updateScreen(event)"
+            >
+              <div>
+                <img src="../source/images/check-circle.png" alt="" />
+              </div>
+              <div class="modeExpert-benefits-text">
+                Калькулятор расчета веса кабеля <br />
+                и доставки
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modeExpert-screen" id="screen">
+      <div id="price" onclick="updateScreenByScreen(event,'screen-price')"></div>
+      <div id="filters" onclick="updateScreenByScreen(event,'screen-filters')"></div>
+      <div id="analogs" onclick="updateScreenByScreen1(event,'screen-analogs','screen-analogs1')"></div>
+      <div id="city" onclick="updateScreenByScreen(event,'screen-city')"></div>
+      <div id="speed-acces" onclick="updateScreenByScreen(event,'screen-speed-acces')"></div>
+    </div>
+      </div>
+    </div>
+    <div class="modeExpert-underfooter">
+      <div class="modeExpert-underfooter-container"></div>
+      <div class="main-container modeExpert-main-container">
+        <div class="main-image">
+          <img
+            width="290px"
+            height="250px"
+            src="../source/images/modeExpert-horn.png"
+            alt=""
+          />
+        </div>
+        <div class="main-content">
+          <div class="main-text" id="modeExpert-underfooter-main-text">
+            Приглашаем всех желающих разместить информацию <br />
+            о своих складских позициях или ценах на кабель
+          </div>
+          <button class="modeExpert-button">
+            <a href=""> Узнать больше </a>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="../js/js.js"></script>
+  </body>
+</html>
